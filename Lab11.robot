@@ -9,7 +9,7 @@ ${INPUT URL}    http://cs.kku.ac.th
 Open Page:
     Open Browser    ${WELCOME URL}    ${BROWSER} 
 	Input Text    q    ${INPUT URL}
-	Submit Form    btnk
+	Submit Form    tsf
 	Wait Until Page Contains    http://cs.kku.ac.th  
 
 
